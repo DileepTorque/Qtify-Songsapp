@@ -1,0 +1,206 @@
+*{
+    /* background-color: black; */
+    padding: 0px;
+    margin: 0px;
+    /* border: 3px solid purple; */
+}
+.second-div{
+    display: flex;
+    width: 100%; 
+    /* border: solid 3px red; */
+    position: relative;
+    left: 90px;
+     margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+   
+}
+.headphones{
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+.first-div{
+    background-color: rgb(52,201,75);
+}
+.div-text{
+    color: aliceblue;
+    position: relative;
+    left: 150px;
+    font-size: 22px;
+    
+}
+
+.cards{
+    display: flex;
+}
+/* .section-2{
+    display: flex;
+    gap: 30px;
+    border: 4px solid red;
+    display: flex;
+    height: 490px;
+   position: relative;
+   top: 130px;
+  
+    flex-wrap: wrap;
+   
+   
+
+} */
+/* .section{
+   
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    background-color: black;
+} */
+/* .Main-section{
+    width: 100%;
+    background-color: black;
+} */
+/* .card-div{
+    border: 4px solid blue;
+  
+} */
+/* .card-body {
+   background-color: azure;
+} */
+/* .card-details{
+    background-color: green;
+    border-radius: 0px 0px 10px 10px;
+    height: 100px;
+} */
+table {
+    width: 80%;
+    margin: 0 auto; 
+    background-color: black;
+    border-collapse: collapse; 
+}
+
+thead th {
+    color: white;
+    padding: 12px;
+  
+    border-bottom: 3px solid black;
+    background-color: green;
+}
+
+
+tbody td {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    border: black;
+}
+
+tbody tr:hover {
+    background-color: green;
+   
+}
+
+tbody td img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+#imagediv{
+    background-color: black;
+    /* height: 200vh; */
+  }
+  #text{
+    margin-left: 400px;
+    /* margin-bottom: -200px; */
+    display: flex;
+    position: relative;
+    right: 200px;
+  }
+  #carts1{
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+    width: 100%;
+  }
+  
+  #carts2{
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+    width: 100%;
+  }
+  .btn-5{
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border-color: #34c94b;
+    width: 160px;
+    height: 40px;
+  }
+  .tddata:hover{
+    background-color: #34c94b;
+  }
+
+  .feedback-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(9, 138, 18, 0.79); */
+    background-image: url("../Asserts/Screenshot\ \(8\).png");
+    background-repeat: no-repeat;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feedback-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-form h2 {
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  
